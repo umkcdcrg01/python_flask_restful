@@ -1,6 +1,15 @@
 python_flask_restful
 ====================
+# POST 
  curl -i -H "Content-Type: application/json" 
  -X POST -d '{"id": 5, "name": "test2"}' http://192.168.1.140:5000/icn/apis/v1.0/services
  
+# GET
  curl -i  http://192.168.1.140:5000/icn/apis/v1.0/services
+
+
+# PUT
+ curl -i -H "Content-Type: application/json" -X PUT -d '{"name": "test2"}' http://192.168.1.140:5000/icn/apis/v1.0/services/1
+ 
+# DELETE
+ curl -i -H "Content-Type: application/json" -X DELETE http://192.168.1140:5000/icn/apis/v1.0/services/2
