@@ -1,0 +1,6 @@
+python_flask_restful
+====================
+ curl -i -H "Content-Type: application/json" 
+ -X POST -d '{"id": 5, "name": "test2"}' http://192.168.1.140:5000/icn/apis/v1.0/services
+ 
+ curl -i  http://192.168.1.140:5000/icn/apis/v1.0/services
