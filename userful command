@@ -1,5 +1,11 @@
 python_flask_restful
 ====================
+restful remote repo:
+ origin  ssh://cona@192.168.1.146/home/cona/gitrepos/restful.git
+ 
+clone to 192.168.1.140:/home/cona/restful_server/resuful 
+
+
 # POST 
  curl -i -H "Content-Type: application/json" 
  -X POST -d '{"id": 5, "name": "test2"}' http://192.168.1.140:5000/icn/apis/v1.0/services
